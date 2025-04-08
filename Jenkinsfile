@@ -2,7 +2,7 @@ pipeline {
     agent any
 
     triggers {
-        githubPush() // GitHub'dan yapılan push işlemi tetikleyicisi
+        githubPush() 
     }
 
     environment {
